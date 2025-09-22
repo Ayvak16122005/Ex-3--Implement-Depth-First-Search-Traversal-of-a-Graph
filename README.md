@@ -29,7 +29,7 @@ Step 5:If Not Visited, add it to the STACK. Else Call The Function Again Until N
 
 
 ### Program:
-```
+```python
 from collections import defaultdict
 def dfs(graph, start, visited, path):
     path.append(start)
